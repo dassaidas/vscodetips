@@ -1,0 +1,177 @@
+{
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "workbench.iconTheme": "vscode-icons",
+  "security.workspace.trust.untrustedFiles": "open",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "redhat.telemetry.enabled": true,
+
+  "mssql.connectionGroups": [
+    {
+      "name": "ROOT",
+      "id": "ROOT",
+    },
+  ],
+
+  "css.enabledLanguages": ["html"],
+
+  "editor.fontLigatures": false,
+  "editor.fontVariations": false,
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "selection",
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true,
+  },
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/bin": true,
+    "**/obj": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.next": true,
+    "**/coverage": true,
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/.venv": true,
+    "**/venv": true,
+    "**/.terraform": true,
+  },
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bin": true,
+    "**/obj": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.next": true,
+    "**/coverage": true,
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/.venv": true,
+    "**/venv": true,
+    "**/.terraform": true,
+  },
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+  ],
+  "eslint.alwaysShowStatus": true,
+
+  "prettier.requireConfig": false,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+  },
+  "[csharp]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+  },
+  "[powershell]": {
+    "editor.tabSize": 4,
+  },
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "npm.packageManager": "npm",
+
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.scrollback": 10000,
+
+  "debug.openDebug": "openOnDebugBreak",
+  "debug.internalConsoleOptions": "neverOpen",
+
+  "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": true,
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.organizeImportsOnFormat": true,
+
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+
+  "yaml.format.enable": true,
+  "yaml.validate": true,
+
+  "docker.showStartPage": false,
+
+  "liveServer.settings.donotShowInfoMsg": true,
+  "jest.runMode": "on-demand",
+
+  "rest-client.environmentVariables": {
+    "local": {
+      "baseUrl": "http://localhost:3000",
+    },
+  },
+
+  "files.associations": {
+    "*.env": "dotenv",
+    "Jenkinsfile": "groovy",
+    "*.pipeline": "groovy",
+  },
+
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+}
